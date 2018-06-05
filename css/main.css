@@ -97,23 +97,104 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Start Global Classes */
-
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* End Global Classes */
 
 /* Start Common Rules*/
+a {
+  color: #DE978B;
+  text-decoration: none;
+}
 
+article {
+  text-align: justify;
+  padding: 2em;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FBFBFB;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #DE978B;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F6F6F5;
+}
 /* End Common Rules */
 
 /* Start Header Style */
+p {
+  margin: 1em;
+  padding: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.topnav-right {
+  float: right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
 /* End Header Style */
 
 /* Start Footer Style */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer {
+  background-color: #fbfbfb;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
 /* End Footer Style */
 
 /* Start Index Main Style */
-
+#articleContainer {
+  display:flex;
+  justify-content: space-around;
+  margin: 2em;
+}
 /* End Index Main Style */
 
 /* Start About Main Style */
