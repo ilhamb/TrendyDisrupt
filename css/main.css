@@ -103,6 +103,16 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+button {
+    background-color: #DE978B;
+    color: #FBFBFB;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
 /* End Global Classes */
 
 /* Start Common Rules*/
