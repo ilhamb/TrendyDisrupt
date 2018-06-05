@@ -53,7 +53,19 @@
   ********** Start Main **********
   -->
   <main>
-
+    <h2>Sign in</h2>
+    <form action="/action_page.php">
+      <label for="uname"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <button type="submit">Login</button>
+      <br>
+      <label><input type="checkbox" checked="checked" name="remember">Remember me</label>
+    </form>
+    <span class="psw"><a href="#">Forgot password?</a></span>
   </main>
   <!--
   ********** End Main **********
