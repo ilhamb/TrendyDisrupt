@@ -122,8 +122,10 @@ a {
 }
 
 article {
-  text-align: justify;
+  text-align: center;
   padding: 2em;
+  margin: auto;
+
 }
 
 h1, h2, h3, p {
@@ -160,10 +162,11 @@ li a:hover {
 /* End Common Rules */
 
 /* Start Header Style */
-p {
+p, form {
   margin: 1em;
   padding: 1em;
   font-family: 'Open Sans', sans-serif;
+  display: block;
 }
 
 .topnav-right {
@@ -187,7 +190,7 @@ p {
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 footer {
@@ -201,9 +204,7 @@ footer {
 
 /* Start Index Main Style */
 #articleContainer {
-  display:flex;
-  justify-content: space-around;
-  margin: 2em;
+  display: flex;
 }
 /* End Index Main Style */
 
